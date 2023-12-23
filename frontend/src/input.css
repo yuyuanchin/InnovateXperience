@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu a:hover {
+  @apply bg-transparent;
+  @apply text-light-blue;
+}
+
+:where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)),
+:where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)) {
+  &:not(summary):not(.active).focus,
+  &:not(summary):not(.active):focus,
+  &:is(summary):not(.active):focus-visible {
+    @apply bg-transparent text-light-blue cursor-pointer outline-none;
+  }
+}
+
+.menu li > *:not(ul):not(.menu-title):not(details):active,
+.menu li > *:not(ul):not(.menu-title):not(details).active,
+.menu li > details > summary:active {
+  @apply bg-transparent text-light-blue [@media(hover:hover)]:bg-transparent [@media(hover:hover)]:text-light-blue;
+}
