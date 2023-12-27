@@ -3,7 +3,7 @@ import service1 from "../images/service1.png";
 import service2 from "../images/service2.png";
 import service3 from "../images/service3.png";
 
-const Service = () => {
+const Services = () => {
   const Card = ({ image, title, description }) => (
     <div className="card w-96 h-96 bg-base-100 shadow-xl border-[3px] border-light-blue p-3 flex-shrink-0 mx-4">
       <figure className="px-10 pt-10">
@@ -54,4 +54,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Services;

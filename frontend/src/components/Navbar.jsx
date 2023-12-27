@@ -1,3 +1,4 @@
+import Services from "./Services";
 const Navbar = () => {
   return (
     <>
