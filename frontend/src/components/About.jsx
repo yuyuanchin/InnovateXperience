@@ -2,7 +2,10 @@ const About = () => {
   const URL = "https://youtu.be/MeFPh2oLjxs?si=SslZ9IHpiy8WE8m0";
 
   return (
-    <div className="bg-dark-blue text-white pt-12 pb-12 lg:py-[60px] px-7 lg:px-[80px] xl:px-[100px]">
+    <div
+      id="about"
+      className="bg-dark-blue text-white pt-12 pb-12 lg:py-[60px] px-7 lg:px-[80px] xl:px-[100px]"
+    >
       <div className="lg:grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center h-full">
         <div className="w-full h-full aspect-w-16 aspect-h-9">
           <iframe
@@ -20,7 +23,10 @@ const About = () => {
             Elevate Your Expectation
           </h1>
           <p className="pt-3 pb-4 text-sm leading-snug md:text-[16px] lg:text-[20px] lg:pt-6 lg:pb-8">
-            Discover a realm of tech excellence. We are <strong>InnovateXperience</strong>, your partner in shaping the future of digital solutions. With a passion for pushing boundaries, we embark on a journey to revolutionize user experiences.
+            Discover a realm of tech excellence. We are{" "}
+            <strong>InnovateXperience</strong>, your partner in shaping the
+            future of digital solutions. With a passion for pushing boundaries,
+            we embark on a journey to revolutionize user experiences.
           </p>
         </div>
       </div>
