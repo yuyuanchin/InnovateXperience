@@ -1,4 +1,3 @@
-import Services from "./Services";
 import logo from "../images/company-logo.png";
 
 const Navbar = () => {
