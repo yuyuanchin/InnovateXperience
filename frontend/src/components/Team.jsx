@@ -6,10 +6,10 @@ import QJ from "../images/QJ.png";
 const Team = () => {
   return (
     <>
-      <div className="bg-white p-6">
+      <div id="team" className="bg-white p-6">
         <div className="pb-6">
           <h1 className="text-[24px] text-center text-light-blue font-bold">
-            TEAM
+            OUR TEAM
           </h1>
         </div>
         <div className="pb-12">
@@ -19,13 +19,19 @@ const Team = () => {
         </div>
 
         <div className="mt-12 mb-12 mx-12 flex flex-row gap-8 justify-center">
-          <div className="card w-68 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
+          <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
             <figure>
-              <img src={YY} alt="Profile Picture of Yu Yuan" />
+              <img
+                src={YY}
+                alt="Profile Picture of Yu Yuan"
+                style={{ width: "250px" }}
+              />
             </figure>
             <div className="card-body text-bold text-center">
-              <h2 className="card-title card text-[18px]">Chin Yu Yuan</h2>
-              <p className="text-center mb-5">Chief Technology Officer</p>
+              <h2 className="card-title card text-[16px]">Chin Yu Yuan</h2>
+              <p className="text-center mb-5 text-[15px]">
+                Chief Technology Officer
+              </p>
               <div className="card-actions justify-center">
                 <nav className="md:place-self-center md:justify-self-end">
                   <div className="grid grid-flow-col gap-4">
@@ -53,15 +59,21 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="card w-68 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
+          <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
             <figure>
-              <img src={JW} alt="Profile Picture of Jia Wen" />
+              <img
+                src={JW}
+                alt="Profile Picture of Jia Wen"
+                style={{ width: "250px" }}
+              />
             </figure>
             <div className="card-body text-bold text-center">
-              <h2 className="card-title card text-[18px]">
+              <h2 className="card-title card text-[16px]">
                 Naomi Tham Kah Mun
               </h2>
-              <p className="text-center mb-5">Chief Executive Officer</p>
+              <p className="text-center mb-5 text-[15px]">
+                Chief Executive Officer
+              </p>
               <div className="card-actions justify-center">
                 <nav className="md:place-self-center md:justify-self-end">
                   <div className="grid grid-flow-col gap-4">
@@ -89,13 +101,19 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="card w-68 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
+          <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
             <figure>
-              <img src={KC} alt="Profile Picture of Ke Chee" />
+              <img
+                src={KC}
+                alt="Profile Picture of Ke Chee"
+                style={{ width: "250px" }}
+              />
             </figure>
             <div className="card-body text-bold text-center">
-              <h2 className="card-title card text-[18px]">Ching Ke Chee</h2>
-              <p className="text-center mb-5">Chief Experience Officer</p>
+              <h2 className="card-title card text-[16px]">Ching Ke Chee</h2>
+              <p className="text-center mb-5 text-[15px]">
+                Chief Experience Officer
+              </p>
               <div className="card-actions justify-center">
                 <nav className="md:place-self-center md:justify-self-end">
                   <div className="grid grid-flow-col gap-4">
@@ -123,13 +141,19 @@ const Team = () => {
             </div>
           </div>
 
-          <div className="card w-68 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
+          <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0">
             <figure>
-              <img src={QJ} alt="Profile Picture of Qiu Jun" />
+              <img
+                src={QJ}
+                alt="Profile Picture of Qiu Jun"
+                style={{ width: "250px" }}
+              />
             </figure>
             <div className="card-body text-bold text-center">
-              <h2 className="card-title card text-[18px]">Ng Qiu Jun</h2>
-              <p className="text-center mb-5">Chief Operations Officer</p>
+              <h2 className="card-title card text-[16px]">Ng Qiu Jun</h2>
+              <p className="text-center mb-5 text-[15px]">
+                Chief Operations Officer
+              </p>
               <div className="card-actions justify-center">
                 <nav className="md:place-self-center md:justify-self-end">
                   <div className="grid grid-flow-col gap-4">
