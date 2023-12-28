@@ -1,3 +1,4 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../images/company-logo.png";
 
 const Navbar = () => {
@@ -50,21 +51,31 @@ const Navbar = () => {
             {/* Menu items */}
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1 flex lg:gap-5 xl:gap-10">
-                <li>
-                  <a href="#hero">HOME</a>
-                </li>
-                <li>
-                  <a href="#services">SERVICES</a>
-                </li>
-                <li>
-                  <a href="#about">ABOUT</a>
-                </li>
-                <li>
-                  <a href="#why-us">WHY US</a>
-                </li>
-                <li>
-                  <a href="#team">TEAM</a>
-                </li>
+                <Link to="home" smooth={true} duration={500}>
+                  <li>
+                    <a>HOME</a>
+                  </li>
+                </Link>
+                <Link to="services" smooth={true} duration={500}>
+                  <li>
+                    <a>SERVICES</a>
+                  </li>
+                </Link>
+                <Link to="about" smooth={true} duration={500}>
+                  <li>
+                    <a>ABOUT</a>
+                  </li>
+                </Link>
+                <Link to="why-us" smooth={true} duration={500}>
+                  <li>
+                    <a>WHY US</a>
+                  </li>
+                </Link>
+                <Link to="team" smooth={true} duration={500}>
+                  <li>
+                    <a>TEAM</a>
+                  </li>
+                </Link>
               </ul>
             </div>
             {/* Login & Sign Up */}
@@ -88,21 +99,31 @@ const Navbar = () => {
             <li>
               <img src={logo} alt="Company logo" className="w-[65px] pb-5" />
             </li>
-            <li>
-              <a href="#home">HOME</a>
-            </li>
-            <li>
-              <a href="#services">SERVICES</a>
-            </li>
-            <li>
-              <a href="#about">ABOUT</a>
-            </li>
-            <li>
-              <a href="#why-us">WHY US</a>
-            </li>
-            <li>
-              <a href="#team">TEAM</a>
-            </li>
+            <Link to="home" smooth={true} duration={500}>
+              <li>
+                <a>HOME</a>
+              </li>
+            </Link>
+            <Link to="services" smooth={true} duration={500}>
+              <li>
+                <a>SERVICES</a>
+              </li>
+            </Link>
+            <Link to="about" smooth={true} duration={500}>
+              <li>
+                <a>ABOUT</a>
+              </li>
+            </Link>
+            <Link to="why-us" smooth={true} duration={500}>
+              <li>
+                <a>WHY US</a>
+              </li>
+            </Link>
+            <Link to="team" smooth={true} duration={500}>
+              <li>
+                <a>TEAM</a>
+              </li>
+            </Link>
             <li>
               <a href="#" className="text-light-blue md:hidden">
                 LOGIN
