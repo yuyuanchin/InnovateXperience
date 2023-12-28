@@ -2,6 +2,7 @@ import YY from "../images/YY.png";
 import JW from "../images/JW.png";
 import KC from "../images/KC.png";
 import QJ from "../images/QJ.png";
+import SocMedIcons from "./SocMedIcons";
 
 const Team = () => {
   return (
@@ -33,28 +34,11 @@ const Team = () => {
                 Chief Technology Officer
               </p>
               <div className="card-actions justify-center">
-                <nav className="md:place-self-center md:justify-self-end">
-                  <div className="grid grid-flow-col gap-4">
-                    <a
-                      href="https://www.linkedin.com"
-                      className="bg-light-blue w-8 h-8 rounded-full flex items-center justify-center cursor-pointer hover:shadow-md transition ease-in-out duration-300 hover:translate-y-1"
-                    >
-                      <i className="fa-brands fa-linkedin-in fa-lg text-white"></i>
-                    </a>
-                    <a
-                      href="https://www.twitter.com"
-                      className="bg-light-blue w-8 h-8 rounded-full flex items-center justify-center cursor-pointer hover:shadow-md transition ease-in-out duration-300 hover:translate-y-1"
-                    >
-                      <i className="fa-brands fa-x-twitter fa-lg text-white"></i>
-                    </a>
-                    <a
-                      href="https://www.facebook.com"
-                      className="bg-light-blue w-8 h-8 rounded-full flex items-center justify-center cursor-pointer hover:shadow-md transition ease-in-out duration-300 hover:translate-y-1"
-                    >
-                      <i className="fa-brands fa-facebook-f fa-lg text-white"></i>
-                    </a>
-                  </div>
-                </nav>
+                <SocMedIcons
+                  textColor={"text-white"}
+                  bgColor={"bg-light-blue"}
+                  iconSize={"fa-lg"}
+                />
               </div>
             </div>
           </div>
