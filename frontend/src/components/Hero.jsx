@@ -3,7 +3,7 @@ import hero from "../images/hero.png";
 const Hero = () => {
   return (
     <>
-      <div className="lg:h-[calc(100vh-68px)] bg-dark-blue text-white pt-2 pb-7 lg:py-[60px] px-7 lg:px-[80px] xl:px-[100px]">
+      <div className="lg:h-[100vh] bg-dark-blue text-white pt-[70px] pb-7 lg:py-[60px] px-7 lg:px-[80px] xl:px-[100px]">
         <div className="flex flex-col lg:grid grid-cols-2 place-items-center h-full">
           <img
             src={hero}

@@ -7,7 +7,7 @@ const Footer = () => {
         <aside className="items-center grid-flow-col lg:flex flex-row align-middle">
           <img src={logo} alt="Company logo" className="h-[30px]" />
           <div className="navbar-start">
-            <a href="/" className="text-3xl font-bold">
+            <a href="/" className="text-2xl min-[425px]:text-3xl font-bold">
               InnovateXperience
             </a>
           </div>
