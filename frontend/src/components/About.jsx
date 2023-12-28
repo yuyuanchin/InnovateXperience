@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className="text-left">
           <p className="pt-6 pb-4 text-sm leading-snug md:text-[20px] xl:text-[24px] lg:pt-6 lg:pb-8 text-light-blue font-bold">
-            OUR SERVICES
+            ABOUT US
           </p>
           <h1 className="text-xl leading-snug md:text-[30px] xl:text-[42px] font-bold">
             Elevate Your Expectation
