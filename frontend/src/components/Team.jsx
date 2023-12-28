@@ -22,7 +22,7 @@ const Team = () => {
               <div className="card-body text-bold text-center">
                 <h2 className="card-title card">Chin Yu Yuan</h2>
                 <p className="text-center">Chief Technology Officer</p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-center">
                   <button className="btn btn-primary">LinkedIn</button>
                 </div>
               </div>
@@ -33,7 +33,7 @@ const Team = () => {
               <div className="card-body text-bold text-center">
                 <h2 className="card-title card">Naomi Tham Kah Mun</h2>
                 <p className="text-center">Chief Executive Officer</p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-center">
                   <button className="btn btn-primary">LinkedIn</button>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const Team = () => {
               <div className="card-body text-bold text-center">
                 <h2 className="card-title card">Ching Ke Chee</h2>
                 <p className="text-center">Chief Experience Officer</p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-center">
                   <button className="btn btn-primary">LinkedIn</button>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Team = () => {
               <div className="card-body text-bold text-center">
                 <h2 className="card-title card">Ng Qiu Jun</h2>
                 <p className="text-center">Chief Operations Officer</p>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-center">
                   <button className="btn btn-primary">LinkedIn</button>
                 </div>
               </div>
