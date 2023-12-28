@@ -14,7 +14,9 @@ const Services = () => {
           
           <h2 className="card-title text-[20px] lg:text-[22px]">{title}</h2>
           <div className="text-justify">
-            <p className="md:text-[16px] lg:text-[18px] center">{description}</p>
+            <p className="md:text-[16px] lg:text-[18px] center">
+              {description}
+            </p>
           </div>
         </div>
       </div>
@@ -22,10 +24,12 @@ const Services = () => {
   );
 
   return (
-    <div className="bg-white">
+    <div id="services" className="bg-white">
       <div className="mt-12 mb-12">
         <div className="pt-3 pb-3">
-          <h1 className="md:text-[22px] xl:text-[24px] text-center text-light-blue font-bold">OUR SERVICES</h1>
+          <h1 className="md:text-[22px] xl:text-[24px] text-center text-light-blue font-bold">
+            OUR SERVICES
+          </h1>
         </div>
 
         <div className="pb-6">

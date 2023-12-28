@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div className="bg-dark-blue text-white pt-12 pb-12 lg:py-[60px] px-7 lg:px-[80px] xl:px-[100px]">
+    <div
+      id="about"
+      className="bg-dark-blue text-white pt-12 pb-12 lg:py-[60px] px-7 lg:px-[80px] xl:px-[100px]"
+    >
       <div className="lg:grid grid-cols-8 gap-8 items-center">
         {/* Upper Video for smaller screens (hidden for larger screens) */}
         <div className="hidden lg:block lg:col-span-4 lg:order-1">
