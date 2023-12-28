@@ -1,5 +1,5 @@
 import logo from "../images/company-logo.png";
-import NavbarMenuItems from "./NavbarMenuItems.jsx";
+import NavbarMenuItems from "./Navbar/NavbarMenuItems.jsx";
 
 const Navbar = () => {
   var prevScrollpos = window.pageYOffset;

@@ -1,9 +1,9 @@
 import logo from "../images/company-logo.png";
-import SocMedIcons from "./SocMedIcons";
-import FooterCompany from "./FooterCompany";
-import FooterServices from "./FooterServices";
-import FooterContactUs from "./FooterContactUs";
-import FooterSubscribe from "./FooterSubscribe";
+import SocMedIcons from "./Global/SocMedIcons";
+import FooterCompany from "./Footer/FooterCompany";
+import FooterServices from "./Footer/FooterServices";
+import FooterContactUs from "./Footer/FooterContactUs";
+import FooterSubscribe from "./Footer/FooterSubscribe";
 
 const Footer = () => {
   return (

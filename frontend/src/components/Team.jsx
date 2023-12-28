@@ -2,7 +2,7 @@ import YY from "../images/YY.png";
 import JW from "../images/JW.png";
 import KC from "../images/KC.png";
 import QJ from "../images/QJ.png";
-import SocMedIcons from "./SocMedIcons";
+import SocMedIcons from "./Global/SocMedIcons";
 
 const Team = () => {
   return (
