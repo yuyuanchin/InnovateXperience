@@ -50,6 +50,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '375px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1360px',
+    },
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
@@ -67,6 +73,9 @@ module.exports = {
       },
       animation: {
         "up-down": "upDown 4s ease-in-out infinite"
+      },
+      boxShadow: {
+        'md': '0 0 7px 3px rgba(0, 187, 240, 0.7)',
       },
     },
   },
