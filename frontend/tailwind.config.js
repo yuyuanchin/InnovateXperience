@@ -77,9 +77,6 @@ module.exports = {
       boxShadow: {
         'md': '0 0 7px 3px rgba(0, 187, 240, 0.7)',
       },
-      translate: {
-        '-1px': '-1px',
-      },
     },
   },
   plugins: [require("daisyui")],
