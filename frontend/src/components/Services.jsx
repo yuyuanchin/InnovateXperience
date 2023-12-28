@@ -11,16 +11,14 @@ const Services = () => {
           <img
             src={image}
             alt={`${title} image`}
-            className="w-[25%] lg:w-[24%]"
+            className="w-[20%] lg:w-[24%]"
           />
         </figure>
         <div
-          className="card-body items-center text-center min-h-[244px]"
+          className="card-body items-center text-center"
           style={{ paddingTop: "1rem" }}
         >
-          <h2 className="card-title text-[18px] md:text-[20px] lg:text-[22px]">
-            {title}
-          </h2>
+          <h2 className="card-title text-[20px] lg:text-[22px]">{title}</h2>
           <div className="text-justify">
             <p className="md:text-[16px] lg:text-[18px] center">
               {description}
@@ -41,7 +39,7 @@ const Services = () => {
         </div>
 
         <div className="pb-6">
-          <h1 className="sm:text-[25px] md:text-[40px] xl:text-[44px] text-center text-black font-bold">
+          <h1 className="sm:text-[25px] md:text-[30px] xl:text-[40px] text-center text-black font-bold">
             We are Providing Digital Services
           </h1>
         </div>
