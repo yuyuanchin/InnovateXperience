@@ -1,3 +1,4 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../images/company-logo.png";
 
 const Footer = () => {
@@ -38,11 +39,31 @@ const Footer = () => {
       <footer className="footer px-7 lg:px-[80px] xl:px-[100px] pt-4 pb-6 md:pb-[80px] bg-dark-blue text-white lg:flex flex-row justify-between">
         <nav>
           <header className="footer-title">Company</header>
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">Services</a>
-          <a className="link link-hover">About Us</a>
-          <a className="link link-hover">Why Us</a>
-          <a className="link link-hover">Our Team</a>
+          <a className="link link-hover">
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </a>
+          <a className="link link-hover">
+            <Link to="services" smooth={true} duration={500}>
+              Services
+            </Link>
+          </a>
+          <a className="link link-hover">
+            <Link to="about" smooth={true} duration={500}>
+              About Us
+            </Link>
+          </a>
+          <a className="link link-hover">
+            <Link to="why-us" smooth={true} duration={500}>
+              Why Us
+            </Link>
+          </a>
+          <a className="link link-hover">
+            <Link to="team" smooth={true} duration={500}>
+              Our Team
+            </Link>
+          </a>
         </nav>
         <nav>
           <header className="footer-title text-md">Services</header>

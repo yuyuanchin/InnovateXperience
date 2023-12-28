@@ -1,5 +1,5 @@
-import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../images/company-logo.png";
+import NavbarMenuItems from "./NavbarMenuItems.jsx";
 
 const Navbar = () => {
   var prevScrollpos = window.pageYOffset;
@@ -18,7 +18,6 @@ const Navbar = () => {
       <div id="navbar" className="drawer z-[1] fixed w-screen">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
-          {/* Navbar */}
           <div className="w-full navbar bg-dark-blue text-white shadow-md shadow-dark-blue/50 lg:px-9">
             {/* Hamburger icon */}
             <div className="flex-none lg:hidden">
@@ -51,31 +50,7 @@ const Navbar = () => {
             {/* Menu items */}
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1 flex lg:gap-5 xl:gap-10">
-                <Link to="home" smooth={true} duration={500}>
-                  <li>
-                    <a>HOME</a>
-                  </li>
-                </Link>
-                <Link to="services" smooth={true} duration={500}>
-                  <li>
-                    <a>SERVICES</a>
-                  </li>
-                </Link>
-                <Link to="about" smooth={true} duration={500}>
-                  <li>
-                    <a>ABOUT</a>
-                  </li>
-                </Link>
-                <Link to="why-us" smooth={true} duration={500}>
-                  <li>
-                    <a>WHY US</a>
-                  </li>
-                </Link>
-                <Link to="team" smooth={true} duration={500}>
-                  <li>
-                    <a>TEAM</a>
-                  </li>
-                </Link>
+                <NavbarMenuItems />
               </ul>
             </div>
             {/* Login & Sign Up */}
@@ -95,35 +70,11 @@ const Navbar = () => {
             className="drawer-overlay"
           ></label>
           <ul className="menu p-4 w-80 min-h-full bg-dark-blue text-white">
-            {/* Sidebar content here */}
+            {/* Sidebar content */}
             <li>
               <img src={logo} alt="Company logo" className="w-[65px] pb-5" />
             </li>
-            <Link to="home" smooth={true} duration={500}>
-              <li>
-                <a>HOME</a>
-              </li>
-            </Link>
-            <Link to="services" smooth={true} duration={500}>
-              <li>
-                <a>SERVICES</a>
-              </li>
-            </Link>
-            <Link to="about" smooth={true} duration={500}>
-              <li>
-                <a>ABOUT</a>
-              </li>
-            </Link>
-            <Link to="why-us" smooth={true} duration={500}>
-              <li>
-                <a>WHY US</a>
-              </li>
-            </Link>
-            <Link to="team" smooth={true} duration={500}>
-              <li>
-                <a>TEAM</a>
-              </li>
-            </Link>
+            <NavbarMenuItems />
             <li>
               <a href="#" className="text-light-blue md:hidden">
                 LOGIN
