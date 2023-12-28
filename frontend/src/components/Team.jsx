@@ -6,7 +6,7 @@ import SocMedIcons from "./Global/SocMedIcons";
 
 const TeamMember = ({ name, role, imageUrl }) => {
   return (
-    <div className="card sm:w-64 md:w-64 lg:w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0 mb-4">
+    <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0 mb-4">
       <figure>
         <img src={imageUrl} alt={`Profile Picture of ${name}`} className="w-full" />
       </figure>
@@ -44,7 +44,8 @@ const Team = () => {
           <h1 className="sm:text-[25px] md:text-[30px] xl:text-[40px] text-center text-black font-bold">Meet the Innovators</h1>
         </div>
 
-      <div className="flex flex-wrap justify-center gap-8 mx-auto">
+      {/* Team Card */} 
+      <div className="flex flex-wrap justify-center gap-8 mt-12 mb-12 mx-auto">
         {teamMembers.map((member, index) => (
           <TeamMember key={index} {...member} />
         ))}
