@@ -6,7 +6,7 @@ import QJ from "../images/QJ.png";
 const Team = () => {
   return (
     <>
-       <div className="bg-white p-6">
+       <div id="team" className="bg-white p-6">
           
           <div className="pb-6">
             <h1 className="text-[24px] text-center text-light-blue font-bold">OUR TEAM</h1>
