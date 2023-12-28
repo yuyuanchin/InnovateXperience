@@ -20,14 +20,18 @@ const Service = () => {
   );
 
   return (
-    <div className="bg-white p-6">
+    <div id="services" className="bg-white p-6">
       <div className="mt-12 mb-12">
         <div className="pb-6">
-          <h1 className="text-[24px] text-center text-light-blue font-bold">OUR SERVICES</h1>
+          <h1 className="text-[24px] text-center text-light-blue font-bold">
+            OUR SERVICES
+          </h1>
         </div>
 
         <div className="pb-12">
-          <h1 className="text-[48px] text-center text-black font-bold">We are Providing Digital Services</h1>
+          <h1 className="text-[48px] text-center text-black font-bold">
+            We are Providing Digital Services
+          </h1>
         </div>
 
         <div className="flex justify-center items-center flex-wrap gap-4 mx-auto">
