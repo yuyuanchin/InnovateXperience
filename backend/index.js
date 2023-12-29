@@ -8,6 +8,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(cors());
+app.use(express.static('dist'))
 
 // Serve static files including images
 app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
