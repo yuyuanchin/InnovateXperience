@@ -12,7 +12,7 @@ const WhyUs = () => {
             <div className="flex flex-col items-center">
                 <img src={icon} alt={`${title} icon`} style={{ width: "100px" }}/>
                 <h2 className="font-bold pt-3 pb-3 text-light-blue">{title}</h2>
-                <p className="text-center pb-7">{description}</p>
+                <p className="text-center px-[200px] pb-[80px]">{description}</p>
             </div>
         </div>
     );
@@ -21,7 +21,7 @@ const WhyUs = () => {
       <>
         <div id="whyUs" className="bg-dark-blue text-white flex flex-col items-center pt-3 pb-3">
             {/* Section Title */}
-            <div className="pt-5 pb-7">
+            <div className="pt-[50px] pb-[50px]">
                 <h1 className="md:text-[22px] xl:text-[24px] text-center font-bold">
                     <span>Why Choose</span>
                     <span className="text-light-blue"> InnovateXperience</span>
