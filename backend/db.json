@@ -1,0 +1,49 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Digital Transformation Consulting",
+      "description": "Helping businesses leverage technology to enhance operations, customer experiences, and overall efficiency.",
+      "imageUrl": "/images/service1.png"
+    },
+    {
+      "id": 2,
+      "title": "User Experience (UX) Design",
+      "description": "Creating intuitive and engaging user interfaces for websites, applications, and digital platforms.",
+      "imageUrl": "/images/service2.png"
+    },
+    {
+      "id": 3,
+      "title": "Artificial Intelligent (AI) Integration",
+      "description": "Implementing AI solutions to automate processes, analyze data, and enhance decision-making capabilities.",
+      "imageUrl": "/images/service3.png"
+    }
+  ],
+
+  "team": [
+    {
+      "id": 1,
+      "name": "Chin Yu Yuan",
+      "role": "Chief Technology Officer",
+      "imageUrl": "/images/YY.png"
+    },
+    {
+      "id": 2,
+      "name": "Naomi Tham Kah Mun",
+      "role": "Chief Executive Officer",
+      "imageUrl": "/images/JW.png"
+    },
+    {
+      "id": 3,
+      "name": "Ching Ke Chee",
+      "role": "Chief Experience Officer",
+      "imageUrl": "/images/KC.png"
+    },
+    {
+      "id": 4,
+      "name": "Ng Qiu Jun",
+      "role": "Chief Operations Officer",
+      "imageUrl": "/images/QJ.png"
+    }
+  ]
+}
