@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div id="navbar" className="drawer z-[1] fixed w-screen">
+      <div id="navbar" className="drawer z-[1] fixed max-w-screen">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           <div className="w-full navbar bg-dark-blue text-white shadow-md shadow-dark-blue/50 lg:px-9">

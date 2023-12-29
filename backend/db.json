@@ -18,5 +18,32 @@
       "description": "Implementing AI solutions to automate processes, analyze data, and enhance decision-making capabilities.",
       "imageUrl": "http://localhost:3000/images/service3.png"
     }
+  ],
+
+  "team": [
+    {
+      "id": 1,
+      "name": "Chin Yu Yuan",
+      "role": "Chief Technology Officer",
+      "imageUrl": "http://localhost:3000/images/YY.png"
+    },
+    {
+      "id": 2,
+      "name": "Naomi Tham Kah Mun",
+      "role": "Chief Executive Officer",
+      "imageUrl": "http://localhost:3000/images/JW.png"
+    },
+    {
+      "id": 3,
+      "name": "Ching Ke Chee",
+      "role": "Chief Experience Officer",
+      "imageUrl": "http://localhost:3000/images/KC.png"
+    },
+    {
+      "id": 4,
+      "name": "Ng Qiu Jun",
+      "role": "Chief Operations Officer",
+      "imageUrl": "http://localhost:3000/images/QJ.png"
+    }
   ]
 }

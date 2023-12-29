@@ -23,10 +23,14 @@ server.use(router);
 // Read data from db.json
 const dbFilePath = path.join(__dirname, 'db.json');
 const rawData = fs.readFileSync(dbFilePath);
-const services = JSON.parse(rawData).services;
+const data = JSON.parse(rawData);
 
 app.get('/api/services', (req, res) => {
-  res.json(services);
+  res.json(data.services);
+});
+
+app.get('/api/team', (req, res) => {
+  res.json(data.team);
 });
 
 app.listen(PORT, () => {
