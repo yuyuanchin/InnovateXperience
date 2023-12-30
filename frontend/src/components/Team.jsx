@@ -6,7 +6,7 @@ import SocMedIcons from "./Global/SocMedIcons";
 
 const TeamMember = ({ name, role, imageUrl }) => {
   return (
-    <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0 mb-4">
+    <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0 mb-4 hover:shadow-md transition ease-in-out duration-300">
       <figure>
         <img src={imageUrl} alt={`Profile Picture of ${name}`} className="w-full" />
       </figure>

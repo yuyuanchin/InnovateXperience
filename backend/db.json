@@ -1,0 +1,76 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Digital Transformation Consulting",
+      "description": "Helping businesses leverage technology to enhance operations, customer experiences, and overall efficiency.",
+      "imageUrl": "/images/service1.png"
+    },
+    {
+      "id": 2,
+      "title": "User Experience (UX) Design",
+      "description": "Creating intuitive and engaging user interfaces for websites, applications, and digital platforms.",
+      "imageUrl": "/images/service2.png"
+    },
+    {
+      "id": 3,
+      "title": "Artificial Intelligent (AI) Integration",
+      "description": "Implementing AI solutions to automate processes, analyze data, and enhance decision-making capabilities.",
+      "imageUrl": "/images/service3.png"
+    }
+  ],
+
+  "whyUs": [
+    {
+      "id": 1,
+      "iconUrl": "/images/whyus1.png",
+      "title": "Exceptional Quality",
+      "description": "We take pride in delivering products and services of the highest quality. Our team of experts work tirelessly to ensure that every product and service meets and exceeds industry standards."
+    },
+    {
+      "id": 2,
+      "iconUrl": "/images/whyus2.png",
+      "title": "Innovation at the Core",
+      "description": "We are at the forefront of innovation, constantly striving to bring you the latest and most cutting-edge solutions. Our commitment to innovation ensures that you stay ahead in a rapidly evolving industry."
+    },
+    {
+      "id": 3,
+      "iconUrl": "/images/whyus3.png",
+      "title": "Customer-Centric Approach",
+      "description": "Your satisfaction is our priority. We listen to your needs and tailor our services to exceed your expectations. Our dedicated customer support team is always ready to assist you, ensuring a seamless experience from start to finish."
+    },
+    {
+      "id": 4,
+      "iconUrl": "/images/whyus4.png",
+      "title": "Sustainable Practices",
+      "description": "Sustainability matters to us. We are committed to environment friendly practices, and our products and services are designed with sustainability in mind."
+    }
+  ],
+
+  "team": [
+    {
+      "id": 1,
+      "name": "Chin Yu Yuan",
+      "role": "Chief Technology Officer",
+      "imageUrl": "/images/YY.png"
+    },
+    {
+      "id": 2,
+      "name": "Naomi Tham Kah Mun",
+      "role": "Chief Executive Officer",
+      "imageUrl": "/images/JW.png"
+    },
+    {
+      "id": 3,
+      "name": "Ching Ke Chee",
+      "role": "Chief Experience Officer",
+      "imageUrl": "/images/KC.png"
+    },
+    {
+      "id": 4,
+      "name": "Ng Qiu Jun",
+      "role": "Chief Operations Officer",
+      "imageUrl": "/images/QJ.png"
+    }
+  ]
+}
