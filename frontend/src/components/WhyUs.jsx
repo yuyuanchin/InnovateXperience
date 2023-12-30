@@ -12,7 +12,7 @@ const WhyUs = () => {
             <div className="flex flex-col items-center">
                 <img src={icon} alt={`${title} icon`} style={{ width: "100px" }}/>
                 <h2 className="font-bold pt-3 pb-3 text-light-blue">{title}</h2>
-                <p className="text-center sm:px-[80px] md:px-[150px] xl:px-[200px] pb-[80px]">{description}</p>
+                <p className="text-center sm:px-[50px] md:px-[150px] xl:px-[200px] pb-[80px]">{description}</p>
             </div>
         </div>
     );
@@ -61,7 +61,7 @@ const WhyUs = () => {
               icon={icon4}
               title="Sustainable Practices"
               description="Sustainability matters to us. We are committed to environment 
-                           friendly practices, and our products and services are designed
+                           friendly practices, and our products and services are designed 
                            with sustainability in mind."
             />            
            </div>
