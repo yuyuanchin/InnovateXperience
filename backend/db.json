@@ -23,25 +23,25 @@
   "whyUs": [
     {
       "id": 1,
-      "iconUrl": "http://localhost:3000/images/whyus1.png",
+      "iconUrl": "/images/whyus1.png",
       "title": "Exceptional Quality",
       "description": "We take pride in delivering products and services of the highest quality. Our team of experts work tirelessly to ensure that every product and service meets and exceeds industry standards."
     },
     {
       "id": 2,
-      "iconUrl": "http://localhost:3000/images/whyus2.png",
+      "iconUrl": "/images/whyus2.png",
       "title": "Innovation at the Core",
       "description": "We are at the forefront of innovation, constantly striving to bring you the latest and most cutting-edge solutions. Our commitment to innovation ensures that you stay ahead in a rapidly evolving industry."
     },
     {
       "id": 3,
-      "iconUrl": "http://localhost:3000/images/whyus3.png",
+      "iconUrl": "/images/whyus3.png",
       "title": "Customer-Centric Approach",
       "description": "Your satisfaction is our priority. We listen to your needs and tailor our services to exceed your expectations. Our dedicated customer support team is always ready to assist you, ensuring a seamless experience from start to finish."
     },
     {
       "id": 4,
-      "iconUrl": "http://localhost:3000/images/whyus4.png",
+      "iconUrl": "/images/whyus4.png",
       "title": "Sustainable Practices",
       "description": "Sustainability matters to us. We are committed to environment friendly practices, and our products and services are designed with sustainability in mind."
     }
