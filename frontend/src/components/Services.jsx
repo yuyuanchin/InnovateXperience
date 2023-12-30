@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import services from "../services/services";
 
 const Card = ({ image, title, description }) => (
-  <div className="card card-normal w-80 h-85 lg:w-96 lg:h-96 bg-base-100 shadow-xl border-[3px] border-light-blue lg:p-3 flex-shrink-0 mx-4 mb-4 justify-center items-center min-h-[327.4px]">
+  <div className="card card-normal w-80 h-85 lg:w-96 lg:h-96 bg-base-100 shadow-xl border-[3px] border-light-blue lg:p-3 flex-shrink-0 mx-4 mb-4 justify-center items-center min-h-[327.4px] hover:shadow-md transition ease-in-out duration-300">
     <div className="pt-5 justify-center">
       {/* Service Icon */}
       <figure>
