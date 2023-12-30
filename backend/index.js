@@ -29,11 +29,14 @@ app.get('/api/services', (req, res) => {
   res.json(data.services);
 });
 
+app.get('/api/whyUs', (req, res) => {
+  res.json(data.whyUs);
+});
+
 app.get('/api/team', (req, res) => {
   res.json(data.team);
 });
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}...`);
-  console.log(`JSON Server is running on port ${PORT}...`);
 });
