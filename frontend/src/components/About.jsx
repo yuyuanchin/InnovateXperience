@@ -47,8 +47,8 @@ const About = () => {
                 style={{ paddingTop: "56.25%" }}
               >
                 <iframe
-                  src="https://www.youtube.com/embed/jDLuJLoaA_g?si=lQUc0oCiB6zaDWf0"
-                  title="YouTube video player"
+                  src="https://youtube.com/embed/aSZa_GVtPJI"
+                  title="InnovateXperience Corporate Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
                   className="absolute top-0 left-0 w-full h-full"
