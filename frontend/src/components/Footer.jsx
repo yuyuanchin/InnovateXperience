@@ -22,6 +22,7 @@ const Footer = () => {
           textColor={"text-dark-blue"}
           bgColor={"bg-white"}
           iconSize={"fa-xl"}
+          linkedin={"https://www.linkedin.com/"}
         />
       </footer>
       <footer className="footer px-7 lg:px-[80px] xl:px-[100px] pt-4 pb-6 md:pb-[80px] bg-dark-blue text-white lg:flex flex-row justify-between">

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import team from "../services/team";
 import SocMedIcons from "./Global/SocMedIcons";
 
-const TeamMember = ({ name, role, imageUrl }) => {
+const TeamMember = ({ name, role, imageUrl, linkedin }) => {
   return (
     <div className="card w-64 bg-base-100 shadow-xl border-[3px] border-light-blue flex-shrink-0 mb-4 hover:shadow-md transition ease-in-out duration-300">
       <figure>
@@ -21,6 +21,7 @@ const TeamMember = ({ name, role, imageUrl }) => {
             textColor="text-white"
             bgColor="bg-light-blue"
             iconSize="fa-lg"
+            linkedin={linkedin}
           />
         </div>
       </div>
@@ -61,6 +62,7 @@ const Team = () => {
             name={member.name}
             role={member.role}
             imageUrl={member.imageUrl}
+            linkedin={member.linkedin}
           />
         ))}
       </div>

@@ -1,10 +1,10 @@
-const SocMedIcons = ({ textColor, bgColor, iconSize }) => {
+const SocMedIcons = ({ textColor, bgColor, iconSize, linkedin }) => {
   return (
     <>
       <nav className="md:place-self-center md:justify-self-end">
         <div className="grid grid-flow-col gap-4">
           <a
-            href="https://www.linkedin.com"
+            href={linkedin}
             className={`${bgColor} w-8 h-8 rounded-full flex items-center justify-center cursor-pointer hover:shadow-md transition ease-in-out duration-300`}
           >
             <i

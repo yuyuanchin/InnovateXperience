@@ -52,25 +52,29 @@
       "id": 1,
       "name": "Chin Yu Yuan",
       "role": "Chief Technology Officer",
-      "imageUrl": "http://localhost:3000/images/YY.png"
+      "imageUrl": "http://localhost:3000/images/YY.png",
+      "linkedin": "https://www.linkedin.com/in/yuyuanchin/"
     },
     {
       "id": 2,
       "name": "Naomi Tham Kah Mun",
       "role": "Chief Executive Officer",
-      "imageUrl": "http://localhost:3000/images/JW.png"
+      "imageUrl": "http://localhost:3000/images/JW.png",
+      "linkedin": "https://my.linkedin.com/in/naomi-tham-a347a3228"
     },
     {
       "id": 3,
       "name": "Ching Ke Chee",
       "role": "Chief Experience Officer",
-      "imageUrl": "http://localhost:3000/images/KC.png"
+      "imageUrl": "http://localhost:3000/images/KC.png",
+      "linkedin": "https://www.linkedin.com/in/ching-ke-chee-57393b255/"
     },
     {
       "id": 4,
       "name": "Ng Qiu Jun",
       "role": "Chief Operations Officer",
-      "imageUrl": "http://localhost:3000/images/QJ.png"
+      "imageUrl": "http://localhost:3000/images/QJ.png",
+      "linkedin": "https://www.linkedin.com/in/qiu-jun-ng-598004256/"
     }
   ]
 }
